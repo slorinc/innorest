@@ -5,7 +5,7 @@ Spring Boot application for the Innometrics Programming assignment
 Technology stack
 --
 
-Spring Boot for bootstraping, 
+Spring Boot for bootstrapping, 
 Spring Boot Actuator for health/metric endpoints,
 Spring MVC for the REST endpoints,
 Logback/AspectJ for logging,
