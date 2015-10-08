@@ -2,6 +2,15 @@
 
 Spring Boot application for the Innometrics Programming assignment
 
+Technology stack
+--
+
+Spring Boot for bootstraping, 
+Spring Boot Actuator for health/metric endpoints,
+Spring MVC for the REST endpoints,
+Logback/AspectJ for logging,
+Hamcrest/JUnit/REST-Assured for unit tests
+
 Heroku
 --
 
