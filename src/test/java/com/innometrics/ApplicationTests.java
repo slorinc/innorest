@@ -30,6 +30,13 @@ public class ApplicationTests {
     }
 
     @Test
+    public void healthEndpoint() {
+        when().get("/innometrics/health")
+                .then()
+                .statusCode(HttpStatus.SC_OK);
+    }
+
+    @Test
     public void keyDoesNotExits() {
         when().get("/innometrics/internal/counter/jim")
                 .then()
